@@ -9,12 +9,12 @@ public class MyApp2 {
 			Scanner n = new Scanner(System.in);
 
 			System.out.println("Введите сторону а: ");
-			double a = n.nextInt();
+			double a = n.nextDouble();
 			System.out.println("Введите сторону b: ");
-			double b = n.nextInt();
+			double b = n.nextDouble();
 			
 			System.out.println("Введите сторону c: ");
-			double c = n.nextInt();
+			double c = n.nextDouble();
 			
 			double p = (a+b+c)/2;
 			System.out.println("Периметр равен = "+p);
